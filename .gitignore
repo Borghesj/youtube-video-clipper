@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+.env
+.venv/
+venv/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Media files
+*.mp4
+*.wav
+*.mp3
+*.avi
+output/
+
+# Project specific
+config/api_keys.py
+upload_queue/pending/*
+upload_queue/completed/*
+*.log
+
+# Sensitive data
+config.py
+*.env
+secrets.json
+api_config.py
